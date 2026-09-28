@@ -1,0 +1,38 @@
+
+# Datasets and generated data (tracked separately with DVC)
+data/*
+!data/.gitkeep
+
+# Trained models and checkpoints
+models/*
+!models/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Experiment tracking outputs
+mlruns/
+mlartifacts/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
