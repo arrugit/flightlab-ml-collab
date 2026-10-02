@@ -1,4 +1,3 @@
-
 """Tests for FlightLab data utilities."""
 
 import pandas as pd
