@@ -1,4 +1,3 @@
-
 """Utilities for loading and validating the FlightLab dataset."""
 
 from pathlib import Path
